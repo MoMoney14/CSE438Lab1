@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66768E39250C84DA00914CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66768E38250C84DA00914CAD /* AppDelegate.swift */; };
+		66768E3B250C84DA00914CAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66768E3A250C84DA00914CAD /* SceneDelegate.swift */; };
+		66768E3D250C84DA00914CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66768E3C250C84DA00914CAD /* ViewController.swift */; };
+		66768E40250C84DA00914CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66768E3E250C84DA00914CAD /* Main.storyboard */; };
+		66768E42250C84DC00914CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66768E41250C84DC00914CAD /* Assets.xcassets */; };
+		66768E45250C84DC00914CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66768E43250C84DC00914CAD /* LaunchScreen.storyboard */; };
+		66768E51250C872900914CAD /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66768E50250C872800914CAD /* DisplayView.swift */; };
+		66768E53250CA44700914CAD /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66768E52250CA44700914CAD /* Pet.swift */; };
+		669F569D25144030009BFA55 /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 669F569C25144030009BFA55 /* readme.txt */; };
+		66B2BED825255741006B74B2 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2BED725255741006B74B2 /* HomeKit.framework */; };
+		66B2BEDA2525574A006B74B2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2BED92525574A006B74B2 /* AudioToolbox.framework */; };
+		66B2BEDC25255752006B74B2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66B2BEDB25255752006B74B2 /* ExternalAccessory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66768E35250C84DA00914CAD /* MahotoSasaki-Lab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MahotoSasaki-Lab2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66768E38250C84DA00914CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66768E3A250C84DA00914CAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66768E3C250C84DA00914CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66768E3F250C84DA00914CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66768E41250C84DC00914CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66768E44250C84DC00914CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66768E46250C84DC00914CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66768E50250C872800914CAD /* DisplayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		66768E52250CA44700914CAD /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		669F569C25144030009BFA55 /* readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		66B2BED525255728006B74B2 /* MahotoSasaki-Lab2Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MahotoSasaki-Lab2Debug.entitlements"; sourceTree = "<group>"; };
+		66B2BED725255741006B74B2 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		66B2BED92525574A006B74B2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		66B2BEDB25255752006B74B2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66768E32250C84DA00914CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B2BEDC25255752006B74B2 /* ExternalAccessory.framework in Frameworks */,
+				66B2BED825255741006B74B2 /* HomeKit.framework in Frameworks */,
+				66B2BEDA2525574A006B74B2 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66768E2C250C84DA00914CAD = {
+			isa = PBXGroup;
+			children = (
+				66768E37250C84DA00914CAD /* MahotoSasaki-Lab2 */,
+				66768E36250C84DA00914CAD /* Products */,
+				66B2BED625255741006B74B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66768E36250C84DA00914CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66768E35250C84DA00914CAD /* MahotoSasaki-Lab2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66768E37250C84DA00914CAD /* MahotoSasaki-Lab2 */ = {
+			isa = PBXGroup;
+			children = (
+				66B2BED525255728006B74B2 /* MahotoSasaki-Lab2Debug.entitlements */,
+				66768E38250C84DA00914CAD /* AppDelegate.swift */,
+				66768E3A250C84DA00914CAD /* SceneDelegate.swift */,
+				66768E3C250C84DA00914CAD /* ViewController.swift */,
+				66768E3E250C84DA00914CAD /* Main.storyboard */,
+				66768E52250CA44700914CAD /* Pet.swift */,
+				669F569C25144030009BFA55 /* readme.txt */,
+				66768E41250C84DC00914CAD /* Assets.xcassets */,
+				66768E43250C84DC00914CAD /* LaunchScreen.storyboard */,
+				66768E46250C84DC00914CAD /* Info.plist */,
+				66768E50250C872800914CAD /* DisplayView.swift */,
+			);
+			path = "MahotoSasaki-Lab2";
+			sourceTree = "<group>";
+		};
+		66B2BED625255741006B74B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66B2BEDB25255752006B74B2 /* ExternalAccessory.framework */,
+				66B2BED92525574A006B74B2 /* AudioToolbox.framework */,
+				66B2BED725255741006B74B2 /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66768E34250C84DA00914CAD /* MahotoSasaki-Lab2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66768E49250C84DC00914CAD /* Build configuration list for PBXNativeTarget "MahotoSasaki-Lab2" */;
+			buildPhases = (
+				66768E31250C84DA00914CAD /* Sources */,
+				66768E32250C84DA00914CAD /* Frameworks */,
+				66768E33250C84DA00914CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MahotoSasaki-Lab2";
+			productName = "MahotoSasaki-Lab2";
+			productReference = 66768E35250C84DA00914CAD /* MahotoSasaki-Lab2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66768E2D250C84DA00914CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = mo3aru;
+				TargetAttributes = {
+					66768E34250C84DA00914CAD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 66768E30250C84DA00914CAD /* Build configuration list for PBXProject "MahotoSasaki-Lab2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66768E2C250C84DA00914CAD;
+			productRefGroup = 66768E36250C84DA00914CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66768E34250C84DA00914CAD /* MahotoSasaki-Lab2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66768E33250C84DA00914CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66768E45250C84DC00914CAD /* LaunchScreen.storyboard in Resources */,
+				66768E42250C84DC00914CAD /* Assets.xcassets in Resources */,
+				669F569D25144030009BFA55 /* readme.txt in Resources */,
+				66768E40250C84DA00914CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66768E31250C84DA00914CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66768E53250CA44700914CAD /* Pet.swift in Sources */,
+				66768E3D250C84DA00914CAD /* ViewController.swift in Sources */,
+				66768E51250C872900914CAD /* DisplayView.swift in Sources */,
+				66768E39250C84DA00914CAD /* AppDelegate.swift in Sources */,
+				66768E3B250C84DA00914CAD /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66768E3E250C84DA00914CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66768E3F250C84DA00914CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66768E43250C84DC00914CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66768E44250C84DC00914CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66768E47250C84DC00914CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66768E48250C84DC00914CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66768E4A250C84DC00914CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "MahotoSasaki-Lab2/MahotoSasaki-Lab2Debug.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXPPB72RRW;
+				INFOPLIST_FILE = "MahotoSasaki-Lab2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MahotoSasaki-Lab2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66768E4B250C84DC00914CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WXPPB72RRW;
+				INFOPLIST_FILE = "MahotoSasaki-Lab2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MahotoSasaki-Lab2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66768E30250C84DA00914CAD /* Build configuration list for PBXProject "MahotoSasaki-Lab2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66768E47250C84DC00914CAD /* Debug */,
+				66768E48250C84DC00914CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66768E49250C84DC00914CAD /* Build configuration list for PBXNativeTarget "MahotoSasaki-Lab2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66768E4A250C84DC00914CAD /* Debug */,
+				66768E4B250C84DC00914CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66768E2D250C84DA00914CAD /* Project object */;
+}
